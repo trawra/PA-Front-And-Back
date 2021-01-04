@@ -1,0 +1,30 @@
+
+
+
+h1 {
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+}
+
+body {
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+
+
+/* Navigation Bar Top Right */
+nav {
+    float: right;
+}
+
+nav ul {
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+
+nav a {
+    
+}
