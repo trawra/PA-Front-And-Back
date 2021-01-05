@@ -4,9 +4,16 @@ TODO:
     Need to configure a COLOR SCHEME THEME STILL 
     
 */
+
+.footer {
+    font-style: italic;
+    width: 95%;
+}
+
 .container {
-    width: 92%;
+    width: 95%;
     margin: 0 auto;
+    background: grey;
 }
 
 header {
@@ -23,7 +30,7 @@ h1 {
     font-size: larger;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: white;
-    padding: 5px 2px 2px 5px;
+    padding: 1px 10px 20px 20px;
 }
 
 body {
@@ -31,31 +38,39 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: left;
     background-color: white;
-    padding: 5px 2px 2px 5px;
+    padding: 2px 2px 2px 2px;
+    margin: 0;
+}
+
+img {
+    padding: 2px 2px 2px 2px;
+    border-radius: 50%;
+    border: 1px solid black;
+
 }
 
 p {
     text-align: center;
     font-size: smaller;
-    background-color: green;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 5px 5px 10px;
 }
 
 /* Navigation Bar Top Right */
 nav {
     float: right;
+    padding-right: 10px;
 }
 
 nav ul {
     display: inline-block;
     margin-left: 20px;
-    padding-top: 15px;
+    padding-top: 88px;
 }
 
 nav li {
     display: inline-block;
-    margin-left: 25px;
-    padding-top: 15px;
+    margin-left: 20px;
+    padding-top: 20px;
 
     position: relative;
 }
@@ -64,7 +79,7 @@ nav a {
     color: black;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 34px;
     font-weight: 100;
 }
 
@@ -75,7 +90,7 @@ nav a:hover {
 nav a::before {
     content: '';
     display: block;
-    height: 5px;
+    height: 6px;
     width: 100%;
     background-color: black;
 
@@ -86,7 +101,7 @@ nav a::before {
 }
 
 nav a:hover::before {
-    width: 100%;
+    width: 82%;
 }
 
 
@@ -97,12 +112,12 @@ a:link {
 
 /* Visited link */
 a:visited {
-    color: rgb(3, 177, 75);
+    color: green;
 }
 
 /* Mouse-over link */
 a:hover {
-    color: red;
+    color: grey;
 }
 
 /* Selected link */
@@ -110,8 +125,63 @@ a:active {
     color: lightblue;
 }
 
-/* LOGO HERE */
+/* LOGO */
 .logo {
     float: left;
-    padding: 10px;
+    padding: 2px;
+}
+
+/* setting columns in middle of screen */
+* {
+    box-sizing: border-box;
+}
+
+/* Style the header */
+.header {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: grey;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 18px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
 }
