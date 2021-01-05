@@ -192,7 +192,8 @@ a:active {
 .column {
   float: left;
   width: 33.33%;
-  padding: 18px;
+  padding: 20px;
+  border: black;
 }
 
 /* Clear floats after the columns */
