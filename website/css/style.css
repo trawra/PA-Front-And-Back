@@ -29,7 +29,6 @@ header::after {
 h1 {
     font-size: larger;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: white;
     padding: 1px 10px 20px 20px;
 }
 
@@ -104,7 +103,6 @@ nav a:hover::before {
     width: 82%;
 }
 
-
 /* Unvisited link */
 a:link {
     color: blue;
@@ -141,6 +139,14 @@ a:active {
   background-color: white;
   padding: 20px;
   text-align: center;
+  font-size: 300%;
+}
+
+/* Style the sidenav bar */
+.sidenav {
+    float: right;
+    padding: 10px;
+    background-color: grey;
 }
 
 /* Style the top navigation bar */
